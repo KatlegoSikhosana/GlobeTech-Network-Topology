@@ -21,123 +21,19 @@ A Cisco Packet Tracer network design project simulating a multi-branch enterpris
 
 ### VLAN Structure
 
-|
- Site 
-|
- VLAN 
-|
- Purpose 
-|
- Network 
-|
-|
-------
-|
-------
-|
----------
-|
----------
-|
-|
- Shared 
-|
- VLAN 99 
-|
- Management 
-|
- 10.0.0.32/28 
-|
-|
- JHB 
-|
- VLAN 20 
-|
- Main Data Network 
-|
- 172.16.0.0/24 
-|
-|
- JHB 
-|
- VLAN 10 
-|
- GlobeTech-WIFI 
-|
- 172.16.1.0/25 
-|
-|
- JHB 
-|
- VLAN 100 
-|
- Guest-WIFI 
-|
- 172.16.1.128/25 
-|
-|
- CPT 
-|
- VLAN 30 
-|
- Main Data Network 
-|
- 172.16.2.0/26 
-|
-|
- CPT 
-|
- VLAN 10 
-|
- GlobeTech-WIFI 
-|
- 172.16.3.0/25 
-|
-|
- CPT 
-|
- VLAN 100 
-|
- Guest-WIFI 
-|
- 172.16.3.128/25 
-|
-|
- POT 
-|
- VLAN 40 
-|
- Main Data Network 
-|
- 172.16.2.64/27 
-|
-|
- POT 
-|
- VLAN 10 
-|
- GlobeTech-WIFI 
-|
- 172.16.4.0/25 
-|
-|
- POT 
-|
- VLAN 100 
-|
- Guest-WIFI 
-|
- 172.16.4.128/25 
-|
-|
- Shared 
-|
- VLAN 60 
-|
- Printers 
-|
- 172.16.2.96/27 
-|
+| Site | VLAN | Purpose | Network |
+|---|---|---|---|
+| Shared | VLAN 99 | Management | 10.0.0.32/28 |
+| JHB | VLAN 20 | Main Data Network | 172.16.0.0/24 |
+| JHB | VLAN 10 | GlobeTech-WIFI | 172.16.1.0/25 |
+| JHB | VLAN 100 | Guest-WIFI | 172.16.1.128/25 |
+| CPT | VLAN 30 | Main Data Network | 172.16.2.0/26 |
+| CPT | VLAN 10 | GlobeTech-WIFI | 172.16.3.0/25 |
+| CPT | VLAN 100 | Guest-WIFI | 172.16.3.128/25 |
+| POT | VLAN 40 | Main Data Network | 172.16.2.64/27 |
+| POT | VLAN 10 | GlobeTech-WIFI | 172.16.4.0/25 |
+| POT | VLAN 100 | Guest-WIFI | 172.16.4.128/25 |
+| Shared | VLAN 60 | Printers | 172.16.2.96/27 |
 
 ## Features Implemented
 
